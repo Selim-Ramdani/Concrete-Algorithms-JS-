@@ -19,8 +19,8 @@ const checkView = (array) => {
 };
 
 console.log(
-  `Selon la liste ${list1} => Appart(s) avec vue sur le soleil couchant : (${checkView(arr1)})`
+  `Selon la liste ${arr1} => Appart(s) avec vue sur le soleil couchant : (${checkView(arr1)})`
 );
 console.log(
-  `Selon la liste ${list2} => Appart(s) avec vue sur le soleil couchant : (${checkView(arr2)})`
+  `Selon la liste ${arr1} => Appart(s) avec vue sur le soleil couchant : (${checkView(arr2)})`
 );

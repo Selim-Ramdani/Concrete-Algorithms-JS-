@@ -11,7 +11,7 @@ const twoNumsSufficient = (array, number) => {
   let exist = false;
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
-      const valueToDiscover = number - array[i];
+      const valueToDiscover = number - array[i]
       array.forEach((element) => {
         if (element === valueToDiscover) {
           exist = true;
